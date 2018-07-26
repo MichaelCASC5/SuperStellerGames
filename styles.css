@@ -1,0 +1,56 @@
+body{
+    background-color: black;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    opacity: 0.9;
+  }
+  li {
+    float: left;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  
+  }
+  li a:hover {
+    background-color: #111;
+  }
+  .active {
+    background-color: #4CAF50;
+  }
+#Box1{
+    border: solid 1px grey;
+    background-color: rgb(48, 46, 46);
+}
+span{
+    font-size: 30px;
+    color: white;
+}
+span2{
+    margin: 5px;
+    color: rgb(179, 179, 179);
+    font-size: 20px;
+}
+#mainGif{
+    text-align: center;
+}
+#Box2{
+    display: flex;
+    flex-direction: row;
+}
+#SSG{
+    text-align: right;
+    color: white;
+    font-size: 9px;
+}
